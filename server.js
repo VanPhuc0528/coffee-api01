@@ -1,18 +1,17 @@
 const jsonServer = require('json-server');
 const server = jsonServer.create();
-const router = jsonServer.router('db.json'); // Đường dẫn tới file JSON của bạn
+const router = jsonServer.router('db.json');
 const middlewares = jsonServer.defaults();
-
 const cors = require('cors');
-server.use(cors()); // <-- Quan trọng
 
+server.use(cors()); // 💥 Bật CORS cho tất cả domain
 server.use(middlewares);
 server.use(jsonServer.bodyParser);
 
-// Nếu muốn thêm logic xác thực:
+// Tuỳ chọn: Đăng nhập
 server.post('/login', (req, res) => {
   const { username, password } = req.body;
-  const db = router.db; // Lowdb instance
+  const db = router.db;
   const user = db.get('users').find({ username, password }).value();
 
   if (user) {
