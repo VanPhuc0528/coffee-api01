@@ -1,0 +1,252 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Cà phê đen đá",
+      "price": 20000,
+      "image": "/images/dendademo.jpg",
+      "description": "Cà phê đậm vị truyền thống, không đường, dành cho người sành.",
+      "isHot": true,
+      "isOnSale": true
+    },
+    {
+      "id": "2",
+      "name": "Cà phê sữa",
+      "price": 25000,
+      "image": "/images/cfsua01.jpg",
+      "description": "Sự kết hợp hoàn hảo giữa cà phê và sữa đặc béo ngậy.",
+      "isHot": true,
+      "isOnSale": true
+    },
+    {
+      "id": "3",
+      "name": "Espresso",
+      "price": 30000,
+      "image": "/images/ess01.jpg",
+      "description": "Là một loại cà phê đậm đặc, được pha bằng cách ép nước nóng dưới áp suất cao qua cà phê xay mịn.",
+      "isHot": true,
+      "isOnSale": true
+    },
+    {
+      "id": "4",
+      "name": "Bạc Xỉu",
+      "price": 30000,
+      "image": "/images/bacxiu.jpg",
+      "description": "Bạc xỉu là một loại đồ uống được làm từ cà phê có pha sữa nhưng phần sữa sẽ nhiều hơn so với phần cà phê.",
+      "isHot": true,
+      "isOnSale": true
+    },
+    {
+      "id": "5",
+      "name": "Matcha Latte",
+      "price": 45000,
+      "image": "/images/mattcha.jpg",
+      "description": "Loại đồ uống được pha chế từ bột matcha (bột trà xanh) và sữa, thường là sữa nóng hoặc sữa tươi, có thể thêm đường hoặc siro để tăng thêm hương vị.",
+      "isHot": true,
+      "isOnSale": true
+    },
+    {
+      "id": "6",
+      "name": "Trà nhiệt đới",
+      "price": 40000,
+      "image": "/images/tra.jpg",
+      "description": "Là một loại thức uống được pha chế từ trà (thường là trà đen, trà xanh hoặc trà thảo mộc) kết hợp với các loại trái cây tươi từ vùng nhiệt đới như dứa, xoài, đu đủ, chanh dây, kiwi, cam, chanh, và nhiều loại khác.",
+      "isHot": true,
+      "isOnSale": true
+    }
+  ],
+  "cart": [
+    {
+      "id": "1",
+      "name": "Cà phê đen đá",
+      "price": 20000,
+      "image": "/images/dendademo.jpg",
+      "description": "Cà phê đậm vị truyền thống, không đường, dành cho người sành.",
+      "isHot": true,
+      "isOnSale": true,
+      "quantity": 1
+    }
+  ],
+  "checkout": [
+    {
+      "id": "1",
+      "name": "Phúc",
+      "date": "11/28/2004",
+      "sex": "Nam",
+      "city": "Hồ Chí Minh",
+      "email": "nguyenharvin700@gmail.com",
+      "phone": "0373817448",
+      "address": "39/5/6G, Phường Linh Đông, Thủ Đức, TP.Hồ Chí Minh"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "thanhthu2222",
+      "password": "12345678",
+      "role": "ADMIN"
+    },
+    {
+      "id": "2",
+      "username": "user1",
+      "password": "user2345",
+      "role": "USER"
+    },
+    {
+      "id": "3",
+      "username": "vanphuc2211",
+      "password": "28112004",
+      "role": "USER"
+    }
+  ],
+  "orders": [
+    {
+      "id": "610a",
+      "user": {
+        "name": "Văn Phúc",
+        "date": "2025-02-26",
+        "sex": "Nam",
+        "city": "Hồ Chí Minh",
+        "email": "nguyenharvin700@gmail.com",
+        "phone": "0373817448",
+        "address": "166/21/16, Đặng Văn Bi, Bình Thọ, Thủ Đức"
+      },
+      "cart": [
+        {
+          "id": "1",
+          "name": "Cà phê đen đá",
+          "price": 20000,
+          "image": "/images/dendademo.jpg",
+          "description": "Cà phê đậm vị truyền thống, không đường, dành cho người sành.",
+          "isHot": true,
+          "isOnSale": true,
+          "quantity": 2
+        },
+        {
+          "id": "4",
+          "name": "Bạc Xỉu",
+          "price": 30000,
+          "image": "/images/bacxiu.jpg",
+          "description": "Bạc xỉu là một loại đồ uống được làm từ cà phê có pha sữa nhưng phần sữa sẽ nhiều hơn so với phần cà phê.",
+          "isHot": true,
+          "isOnSale": true,
+          "quantity": 1
+        }
+      ],
+      "total": 70000,
+      "paymentMethod": "Thanh toán khi nhận hàng",
+      "date": "2025-06-24T02:53:24.807Z"
+    },
+    {
+      "id": "6883",
+      "user": {
+        "name": "hugy",
+        "date": "2025-06-24",
+        "sex": "Nữ",
+        "city": "Biên Hòa",
+        "email": "ưdwdwd",
+        "phone": "0373817448",
+        "address": "đwwdwd"
+      },
+      "cart": [
+        {
+          "id": "1",
+          "name": "Cà phê đen đá",
+          "price": 20000,
+          "image": "/images/dendademo.jpg",
+          "description": "Cà phê đậm vị truyền thống, không đường, dành cho người sành.",
+          "isHot": true,
+          "isOnSale": true,
+          "quantity": 2
+        },
+        {
+          "id": "4",
+          "name": "Bạc Xỉu",
+          "price": 30000,
+          "image": "/images/bacxiu.jpg",
+          "description": "Bạc xỉu là một loại đồ uống được làm từ cà phê có pha sữa nhưng phần sữa sẽ nhiều hơn so với phần cà phê.",
+          "isHot": true,
+          "isOnSale": true,
+          "quantity": 1
+        }
+      ],
+      "total": 70000,
+      "paymentMethod": "Ngân hàng",
+      "date": "2025-06-24T02:56:59.123Z"
+    },
+    {
+      "id": "79cb",
+      "user": {
+        "name": "ddd",
+        "date": "2025-06-24",
+        "sex": "Nam",
+        "city": "Biên Hòa",
+        "email": "đwd",
+        "phone": "0123456789",
+        "address": "đwd"
+      },
+      "cart": [
+        {
+          "id": "1",
+          "name": "Cà phê đen đá",
+          "price": 20000,
+          "image": "/images/dendademo.jpg",
+          "description": "Cà phê đậm vị truyền thống, không đường, dành cho người sành.",
+          "isHot": true,
+          "isOnSale": true,
+          "quantity": 2
+        },
+        {
+          "id": "4",
+          "name": "Bạc Xỉu",
+          "price": 30000,
+          "image": "/images/bacxiu.jpg",
+          "description": "Bạc xỉu là một loại đồ uống được làm từ cà phê có pha sữa nhưng phần sữa sẽ nhiều hơn so với phần cà phê.",
+          "isHot": true,
+          "isOnSale": true,
+          "quantity": 1
+        },
+        {
+          "id": "5",
+          "name": "Matcha Latte",
+          "price": 45000,
+          "image": "/images/mattcha.jpg",
+          "description": "Loại đồ uống được pha chế từ bột matcha (bột trà xanh) và sữa, thường là sữa nóng hoặc sữa tươi, có thể thêm đường hoặc siro để tăng thêm hương vị.",
+          "isHot": true,
+          "isOnSale": true,
+          "quantity": 1
+        }
+      ],
+      "total": 115000,
+      "paymentMethod": "Thanh toán khi nhận hàng",
+      "createdAt": "2025-06-24T03:05:14.589Z"
+    },
+    {
+      "id": "a9fc",
+      "user": {
+        "name": "Văn Phúc",
+        "date": "2025-06-24",
+        "sex": "Nam",
+        "city": "Hồ Chí Minh",
+        "email": "đwdwdw",
+        "phone": "0373817448",
+        "address": "ưdwdwd"
+      },
+      "cart": [
+        {
+          "id": "1",
+          "name": "Cà phê đen đá",
+          "price": 20000,
+          "image": "/images/dendademo.jpg",
+          "description": "Cà phê đậm vị truyền thống, không đường, dành cho người sành.",
+          "isHot": true,
+          "isOnSale": true,
+          "quantity": 1
+        }
+      ],
+      "total": 20000,
+      "paymentMethod": "Thanh toán khi nhận hàng",
+      "createdAt": "2025-06-24T03:32:27.502Z"
+    }
+  ]
+}
